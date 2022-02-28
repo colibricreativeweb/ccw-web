@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/home/skt/Desktop/zeni/node_modules/@reach/router/index.js"), require("fs"), require("/home/skt/Desktop/zeni/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		module.exports = factory(require("/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/@reach/router/index.js"), require("fs"), require("/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/home/skt/Desktop/zeni/node_modules/@reach/router/index.js", "fs", "/home/skt/Desktop/zeni/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
+		define("lib", ["/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/@reach/router/index.js", "fs", "/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/home/skt/Desktop/zeni/node_modules/@reach/router/index.js"), require("fs"), require("/home/skt/Desktop/zeni/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
+		exports["lib"] = factory(require("/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/@reach/router/index.js"), require("fs"), require("/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"));
 	else
-		root["lib"] = factory(root["/home/skt/Desktop/zeni/node_modules/@reach/router/index.js"], root["fs"], root["/home/skt/Desktop/zeni/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
+		root["lib"] = factory(root["/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/@reach/router/index.js"], root["fs"], root["/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -119,11 +119,11 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "Zenii Gatsby",
-    "short_name": "zenii",
+    "name": "Colibri Creative Web",
+    "short_name": "ccw",
     "start_url": "/",
     "background_color": "#6C63FF",
-    "theme_color": "#6C63FF",
+    "theme_color": "#009cffff",
     "display": "minimal-ui",
     "icon": "src/assets/images/favicon.png",
     "legacy": true,
@@ -131,7 +131,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "2016ec09e46327da0e5f9b90c290ea2c"
+    "cacheDigest": "9ba5face28d1abf92875bee734a6dc9e"
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -1678,7 +1678,7 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
+var _typeof = __webpack_require__(/*! ./typeof.js */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
 
 function _getRequireWildcardCache(nodeInterop) {
   if (typeof WeakMap !== "function") return null;
@@ -3975,7 +3975,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
         if (checkerResult == null) {
           return null;
         }
-        if (checkerResult.data.hasOwnProperty('expectedType')) {
+        if (checkerResult.data && has(checkerResult.data, 'expectedType')) {
           expectedTypes.push(checkerResult.data.expectedType);
         }
       }
@@ -30804,9 +30804,9 @@ if (false) {} else {
 /***/ }),
 
 /***/ "@reach/router":
-/*!*****************************************************************************!*\
-  !*** external "/home/skt/Desktop/zeni/node_modules/@reach/router/index.js" ***!
-  \*****************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** external "/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/@reach/router/index.js" ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -30826,9 +30826,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_fs__;
 /***/ }),
 
 /***/ "lodash/merge":
-/*!**********************************************************************!*\
-  !*** external "/home/skt/Desktop/zeni/node_modules/lodash/merge.js" ***!
-  \**********************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** external "/home/skt/Desktop/NEURALINK/Serverket/colibri/ccw-web/node_modules/lodash/merge.js" ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-zenii",
+  "name": "ccw-web",
   "private": true,
-  "description": "A One-page Gatsby starter built with Tailwindcss and  Postcss",
+  "description": "Our very first swag website powered by GatsbyJS and TailwindCSS.",
   "version": "1.0.0",
   "license": "0BSD",
   "scripts": {
@@ -44,11 +44,11 @@
     "yargs-parser": "^19.0.4"
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.5",
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.4.7",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
-    "prettier": "2.0.5",
+    "prettier": "2.5.1",
     "tailwindcss": "^3.0.23"
   },
   "repository": {

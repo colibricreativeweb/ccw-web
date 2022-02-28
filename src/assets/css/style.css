@@ -11,3 +11,7 @@
 @import "layouts/index.css";
 
 @import "vendor/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
