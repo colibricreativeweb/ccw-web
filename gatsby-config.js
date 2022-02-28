@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
     siteMetadata: {
-        title: `Zenii`,
-        description: `A One-page Gatsby starter built with Tailwindcss and  Postcss.`,
-        author: `The Bakerdev`,
+        title: `Colibri Creative Web`,
+        description: `Launch your ideas to the brand space.`,
+        author: `Manuel "Serverket" Hernandez`,
     },
     plugins: [
         {
@@ -35,11 +35,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Zenii Gatsby`,
-                short_name: `zenii`,
+                name: `Colibri Creative Web`,
+                short_name: `ccw`,
                 start_url: `/`,
                 background_color: `#6C63FF`,
-                theme_color: `#6C63FF`,
+                theme_color: `#009cffff`,
                 display: `minimal-ui`,
                 icon: `src/assets/images/favicon.png`,
             }
