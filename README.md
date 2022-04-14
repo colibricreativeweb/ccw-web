@@ -1,47 +1,29 @@
-# Gastby Starter Zenii
-A One-page Gatsby starter built with Tailwindcss and  Postcss.
+# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v1.0.0-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.0.23-cyan)](https://tailwindcss.com)
 
-## Features
+This is a crafted website using [Tailwind CSS](https://tailwindcss.com) in a Next.js project + Contentful.
+
+## :triangular_ruler: Features
 - Styles are ure built using [Tailwindcss](https://tailwindcss.com/)
 - Css styles use [Postcss](https://postcss.org/)
 - [Contentful](https://www.contentful.com/) integration
 - Uses [Material Icons](https://material.io/resources/icons/?style=baseline)
 
-## Requirements
-The theme requires you to have a contentful account. You can register your account at [https://www.contentful.com/sign-up/](https://www.contentful.com/sign-up/).
-
-## Create with Stackbit
-
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii&ssg=gatsby&cms=contentful)
-
-## Getting Started
-Clone the theme
-```
-git clone git@github.com:thebakerdev/gatsby-starter-zenii.git
-```
-Install dependencies
-```
-npm install
-```
-This project comes with a Contentful setup command from [https://github.com/contentful-userland/gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
-```
-npm run setup
+## :telescope: Install and run
+```bash
+yarn
+# then
+yarn run setup
+# then
+yarn run develop
 ```
 The process will ask for your credentials which can be found on your contentful settings. 
-### Development Commands
-Run the project locally
+## :hammer: Build Commands
+```bash
+yarn run build
+# then
+yarn run serve
 ```
-npm run develop
-```
-Build the project
-```
-npm run build
-```
-Serve the build project
-```
-npm run serve
-```
-## Theme Customizations
+## :gem: Theme Customizations
 
 ### Changing Colors
 
@@ -102,3 +84,7 @@ const content = data.allContentfulLayoutPortfolio.edges.find(edge => edge.node.i
 - **Testimonial** - User testimonials
 - **Pricing Plan** - Product/Service plans
 - **Service Item** - Service items inside services section 
+
+## :brain: Acknowledgments
+
+_"Whoever loves discipline loves knowledge, but whoever hates correction is stupid."_
