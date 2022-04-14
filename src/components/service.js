@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const Service = ({ service }) => (
-    <div className="service service--left" data-sal="fade" data-sal-easing="ease-in-cubic" data-sal-duration="400">
-        <div className="service__image-wrap">
-            <Img fluid={ service.image.fluid } alt="service item" className="service__image"/>
+    <div className="w-1/2 text-center mt-5 mb-5 mx-auto" data-sal="fade" data-sal-easing="ease-in-cubic" data-sal-duration="400">
+        <div className="mx-4">
+            <Img fluid={ service.image.fluid } alt="service item" className=""/>
         </div>
-        <h3 className="service__title">{ service.title }</h3>
+        <h3 className="font-bold lg:mb-4 mb-2">{ service.title }</h3>
         <p>{ service.description.description }</p>
     </div>
 );
