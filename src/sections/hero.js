@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
+import WhatsApp from 'components/WhatsApp';
+import ButtonUp from 'components/ButtonUp';
 
 const Hero = ({ contentModuleId }) => {
     
@@ -43,6 +45,8 @@ const Hero = ({ contentModuleId }) => {
             <div className="hero__image">
                 <img src={ content.node.image.fluid.src }  className="mx-auto" alt="Hero" data-sal="slide-right" data-sal-delay="400" data-sal-duration="500" />
             </div>
+            <WhatsApp fdata-sal="slide-up" data-sal-easing="ease-in-cubic" alt="WhatsApp button" />
+            <ButtonUp />
         </section>
     );
 };

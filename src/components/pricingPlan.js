@@ -17,7 +17,7 @@ const PricingPlan = ({ plan }) => (
                 </ul>
             }
         </div>
-        <a href={ plan.buttonUrl } className={`btn ${!plan.featured ? 'btn--primary': ''}`}>{ plan.buttonText }</a>
+        <a target="_blank" rel="noreferrer" href={ plan.buttonUrl } className={`btn ${!plan.featured ? 'btn--primary': ''}`}>{ plan.buttonText }</a>
     </div>
 );
 

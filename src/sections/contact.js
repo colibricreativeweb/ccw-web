@@ -52,7 +52,7 @@ const Contact = ({ contentModuleId }) => {
                         <label htmlFor="message">Message</label>
                         <textarea id="message" className="h-20" name="message"></textarea>
                     </div>
-                    <button type="submit" className="btn btn--primary mt-8">Send</button>
+                    <button type="submit" className="btn btn--primary bg-blue-400 mt-8">Send</button>
                 </form>
             </div>
             <div className="contact__image">

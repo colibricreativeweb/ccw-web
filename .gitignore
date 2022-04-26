@@ -22,6 +22,7 @@ yarn.lock
 *.pem
 .env.development
 .env.production
+/public/page-data/sq
 
 # debug
 npm-debug.log*
