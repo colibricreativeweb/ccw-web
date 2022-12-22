@@ -1,89 +1,22 @@
-# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v1.0.0-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.0.23-cyan)](https://tailwindcss.com)
+# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v2.1.0-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.2.4-cyan)](https://tailwindcss.com)
 
-This is a crafted website using [Tailwind CSS](https://tailwindcss.com) in a Next.js project + Contentful.
+Crafted from scratch using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com).
 
-## :triangular_ruler: Features
-- Styles are ure built using [Tailwindcss](https://tailwindcss.com/)
-- Css styles use [Postcss](https://postcss.org/)
-- [Contentful](https://www.contentful.com/) integration
-- Uses [Material Icons](https://material.io/resources/icons/?style=baseline)
+## :gear: Install it and run dev mode
 
-## :telescope: Install and run
 ```bash
-yarn
-# then
-yarn run setup
-# then
-yarn run develop
+yarn && yarn dev --host
 ```
-The process will ask for your credentials which can be found on your contentful settings. 
-## :hammer: Build Commands
-```bash
-yarn run build
-# then
-yarn run serve
-```
-## :gem: Theme Customizations
+_The ```--host``` param will expose :shipit: the project preview on your local network._
 
-### Changing Colors
+Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example).
 
-The theme comes with a **tailwind.config.js** file and can be customized based on your preferred color scheme.
+### :telescope: If you want to start from scratch
 
-### Changing fonts
+:link: [Go to this site and follow the steps](https://tailwindcss.com/docs/guides/vite).
 
-The theme uses [gatsby-plugin-google-fonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-fonts/) plugin to load google fonts. You can change font settings inside **gatsby-config.js** and **tailwind.config.js**.
-
-### Pages and Sections
-
-You can simply add new sections and pages in the theme by creating new contentful model and map it to the component.
-
-#### Creating Sections
-
-- Create a layout in your contentful account and name it like **Layout > LayoutName** (ex. Layout > Portfolio) and add your specific fields.
-- Edit the **Layout** model **Content Module** settings and add your new layout to the **Accept only specified entry type** on the validation tab.
-- Create a section component inside **src/sections** (ex. portfolio.js).
-- Import the new component inside the **section.js** file and add it to the components array.   
-- Add static query inside your new section component. Make sure that the component accepts **contentModuleId** as a prop.
-```
-const data = useStaticQuery(graphql`
-  query {
-      allContentfulLayoutPortfolio {
-          edges {
-              node {
-                  id
-                  heading
-                  subheading
-                  description {
-                      description
-                  }
-                  ctaText
-                  ctaUrl
-                  image {
-                      fluid(quality: 100) {
-                          ...GatsbyContentfulFluid
-                      }
-                  }
-              }
-          }
-      }
-  }
-`);
-
-const content = data.allContentfulLayoutPortfolio.edges.find(edge => edge.node.id === contentModuleId);
-```
-- And lastly add the new section layout in your contentful layout record. By default it is named as Homepage.
-- Sections can be rearranged in any order you want.
-
-### Contentful Content Types
-- **Layout** - The page layout content.
-- **Layout > &ast;** - The section content which is inside the layout.
-- **Menu** - Navigation menu for each layout
-- **Menu Item** - Navigation links for menu
-- **Contact Details** - Basic information and social media links
-- **Featured Items** - About section featured items
-- **Testimonial** - User testimonials
-- **Pricing Plan** - Product/Service plans
-- **Service Item** - Service items inside services section 
+## :scroll: Licensing
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
 ## :brain: Acknowledgments
 
