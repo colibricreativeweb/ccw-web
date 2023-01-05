@@ -55,7 +55,7 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">WHAT WE DO</h3>
+                <h3 className="h3 mb-3">TRUST THE <span className="bg-blue-400 pl-2 pr-2 text-white pb-1">EXPERTS</span></h3>
                 <p className="text-xl text-gray-600">
                   Our network of skilled professionals can provide cutting-edge technology-driven solutions and projects no matter the scale of your business or brand.  
                 </p>
@@ -66,7 +66,7 @@ function Features() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-blue-200 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -91,7 +91,7 @@ function Features() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-blue-200 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -116,7 +116,7 @@ function Features() {
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      : "bg-blue-200 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -159,7 +159,7 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col md:mt-52">
+                  <div className="relative inline-flex flex-col md:mt-48">
                     <img
                       className="md:max-w-none mx-auto transform animate-float rounded z-10"
                       src={MarketingElements}
