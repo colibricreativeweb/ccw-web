@@ -1,4 +1,4 @@
-# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v2.1.0-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.2.4-cyan)](https://tailwindcss.com)
+# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v2.1.1-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.2.4-cyan)](https://tailwindcss.com)
 
 Crafted from scratch using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com).
 
