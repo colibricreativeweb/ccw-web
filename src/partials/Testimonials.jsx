@@ -64,7 +64,7 @@ function Testimonials() {
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img
                 className="h-8 filter opacity-50"
-                src="/src/images/github.webp"
+                src="/corps/github.webp"
               />
             </div>
 
@@ -72,7 +72,7 @@ function Testimonials() {
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img
                 className="h-8 filter opacity-50"
-                src="/src/images/linkedin.webp"
+                src="/corps/linkedin.webp"
               />
             </div>
 
@@ -80,7 +80,7 @@ function Testimonials() {
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img
                 className="h-8 filter opacity-50"
-                src="/src/images/upwork.webp"
+                src="/corps/upwork.webp"
               />
             </div>
           </div>
