@@ -37,6 +37,7 @@ yarn.lock
 .env.development
 .env.production
 /public/page-data/sq
+/dev-dist
 
 # Production
 /build

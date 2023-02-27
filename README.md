@@ -1,8 +1,8 @@
-# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v2.1.1-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.2.4-cyan)](https://tailwindcss.com)
+# Colibri Creative Web &middot; ![Release Status](https://img.shields.io/badge/release-v2.1.1-bgreen) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![tailwind version](https://img.shields.io/badge/tailwind-3.2.4-cyan)](https://tailwindcss.com) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/license-CC_BY--NC--ND_4.0-lightgrey.svg)](LICENSE)
 
 Crafted from scratch using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com).
 
-## :gear: Install it and run dev mode
+## :gear: Install it and Run dev mode
 
 ```bash
 yarn && yarn dev --host
