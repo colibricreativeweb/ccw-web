@@ -62,10 +62,7 @@ function Testimonials() {
           <div className="flex items-center space-x-4 md:space-x-8 justify-center max-w-sm md:max-w-4xl mx-auto">
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img
-                className="h-8 filter opacity-50"
-                src="/corps/github.webp"
-              />
+              <img className="h-8 filter opacity-50" src="/corps/github.webp" />
             </div>
 
             {/* Item */}
@@ -78,10 +75,7 @@ function Testimonials() {
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img
-                className="h-8 filter opacity-50"
-                src="/corps/upwork.webp"
-              />
+              <img className="h-8 filter opacity-50" src="/corps/upwork.webp" />
             </div>
           </div>
 
@@ -129,7 +123,60 @@ function Testimonials() {
       </div>
 
       {/* Team */}
-      <div className="flex items-start justify-center space-x-4 md:flex-row flex-col mb-20">
+      <div className="md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 flex items-center md:items-start justify-center space-x-4 space-y-2 md:flex-row flex-col mb-20">
+        <div x-data="lw" class="flex justify-center items-start">
+          <div
+            class="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
+                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
+          >
+            <figure
+              class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
+                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
+            >
+              <img
+                class="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
+                src="/team/alejandro.webp"
+                alt="Avatar"
+              />
+            </figure>
+            <header class="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 class="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                Manuel Castro
+              </h3>
+              <p class="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                <strong>Founder & COO</strong> | Full Stack Dev
+              </p>
+            </header>
+
+            <ul
+              class="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
+                   relative"
+            >
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
+                <a
+                  href="https://github.com/kwgeniusz"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-200 motion-safe:transition">
+                <a
+                  href="https://t.me/kwgeniusz"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div x-data="lw" class="flex justify-center items-start">
           <div
             class="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
@@ -172,7 +219,7 @@ function Testimonials() {
               </li>
               <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
                 <a
-                  href="https://github.com/serverket"
+                  href="https://github.com/Serverket"
                   className="pointer-cursor"
                   target="_blank"
                   rel="noreferrer"
@@ -193,6 +240,154 @@ function Testimonials() {
               <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
                 <a
                   href="https://www.linkedin.com/in/serverket"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div x-data="lw" class="flex justify-center items-start">
+          <div
+            class="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
+                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
+          >
+            <figure
+              class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
+                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
+            >
+              <img
+                class="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
+                src="/team/roberto.webp"
+                alt="Avatar"
+              />
+            </figure>
+            <header class="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 class="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                Roberto Perez
+              </h3>
+              <p class="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                <strong>CTO</strong> | Back-end Dev
+              </p>
+            </header>
+
+            <ul
+              class="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
+                   relative"
+            >
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
+                <a
+                  href="https://github.com/R3is3rsf/"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-200 motion-safe:transition">
+                <a
+                  href="https://t.me/R3is3rsf"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://www.linkedin.com/in/r3is3rsf/"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div x-data="lw" class="flex justify-center items-start">
+          <div
+            class="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
+                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
+          >
+            <figure
+              class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
+                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
+            >
+              <img
+                class="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
+                src="/team/jano.webp"
+                alt="Avatar"
+              />
+            </figure>
+            <header class="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 class="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                Alejandro Pineda
+              </h3>
+              <p class="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                <strong>Lead Developer</strong> | Full Stack Dev
+              </p>
+            </header>
+
+            <ul
+              class="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
+                   relative"
+            >
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
+                <a
+                  href="https://janopineda.dev"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-link-2 text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
+                <a
+                  href="https://github.com/janopineda"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-200 motion-safe:transition">
+                <a
+                  href="https://t.me/janopineda"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://www.facebook.com/codephoenix777"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-facebook text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://www.linkedin.com/in/alejandro-pineda-76074b17"
                   className="pointer-cursor"
                   target="_blank"
                   rel="noreferrer"
@@ -262,80 +457,6 @@ function Testimonials() {
                   rel="noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div x-data="lw" class="flex justify-center items-start">
-          <div
-            class="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
-                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
-          >
-            <figure
-              class="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
-                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
-                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
-            >
-              <img
-                class="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
-                src="/team/jano.webp"
-                alt="Avatar"
-              />
-            </figure>
-            <header class="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 class="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
-                Alejandro Pineda
-              </h3>
-              <p class="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
-                <strong>Lead Front-end Dev</strong> | Full Stack Dev
-              </p>
-            </header>
-
-            <ul
-              class="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
-                   relative"
-            >
-              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
-                <a
-                  href="https://janopineda.dev"
-                  className="pointer-cursor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="icon-link-2 text-md hover:underline hover:underline-offset-4" />
-                </a>
-              </li>
-              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
-                <a
-                  href="https://github.com/janopineda"
-                  className="pointer-cursor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
-                </a>
-              </li>
-              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-200 motion-safe:transition">
-                <a
-                  href="https://t.me/janopineda"
-                  className="pointer-cursor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
-                </a>
-              </li>
-              <li class="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
-                <a
-                  href="https://www.facebook.com/codephoenix777"
-                  className="pointer-cursor"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="icon-facebook text-md hover:underline hover:underline-offset-4" />
                 </a>
               </li>
             </ul>
