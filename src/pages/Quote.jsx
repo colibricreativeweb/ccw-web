@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../partials/Header';
 /* import Banner from '../partials/Banner'; */
 
-function SignUp() {
+function Quote() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -23,8 +23,11 @@ function SignUp() {
                 <h1 className="h1">Welcome. We exist to make entrepreneurism easier.</h1>
               </div>
 
+
+
               {/* Form */}
-              <div className="max-w-sm mx-auto">
+              
+              {/* <div className="max-w-sm mx-auto">
                 <form>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
@@ -83,7 +86,7 @@ function SignUp() {
                 <div className="text-gray-600 text-center mt-6">
                   Already using Simple? <Link to="/signin" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign in</Link>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
@@ -97,4 +100,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Quote;
