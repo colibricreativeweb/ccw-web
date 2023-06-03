@@ -132,7 +132,7 @@ function Testimonials() {
 
       {/* Team */}
       <div className="md:grid md:grid-cols-3 lg:grid-cols-4 xl:flex items-center md:items-start justify-center space-x-4 space-y-2 md:flex-row flex-col mb-20">
-        {/* <div x-data="lw" className="flex justify-center items-start">
+        <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
@@ -182,9 +182,19 @@ function Testimonials() {
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
               </li>
+              <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://www.linkedin.com/in/kwgeniusz"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
             </ul>
           </div>
-        </div> */}
+        </div>
         <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
@@ -396,6 +406,70 @@ function Testimonials() {
               <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
                 <a
                   href="https://www.linkedin.com/in/alejandro-pineda-76074b17"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div x-data="lw" className="flex justify-center items-start">
+          <div
+            className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
+                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
+          >
+            <figure
+              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
+                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
+            >
+              <img
+                className="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
+                src="/team/jeff.webp"
+                alt="Avatar"
+              />
+            </figure>
+            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                Jeff Bustamante
+              </h3>
+              <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                <strong>Lead Developer</strong> | Back-end Dev
+              </p>
+            </header>
+
+            <ul
+              className="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
+                   relative"
+            >
+              <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-100 motion-safe:transition">
+                <a
+                  href="https://github.com/J3f3er"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-200 motion-safe:transition">
+                <a
+                  href="https://t.me/J3f3er"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+              <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://linkedin.com/in/jefferson-bustamante-hurtado-844218169"
                   className="pointer-cursor"
                   target="_blank"
                   rel="noreferrer"
