@@ -131,16 +131,16 @@ function Testimonials() {
       </div>
 
       {/* Team */}
-      <div className="md:grid md:grid-cols-3 lg:grid-cols-4 xl:flex items-center md:items-start justify-center space-x-4 space-y-2 md:flex-row flex-col mb-20">
+      <div className="md:grid md:grid-cols-3 lg:grid-cols-3 2xl:flex items-center md:items-start justify-center space-x-0 space-y-2 md:flex-row flex-col mb-20">
         <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -149,8 +149,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Manuel Castro
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
@@ -201,9 +201,9 @@ function Testimonials() {
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -212,8 +212,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Manuel Hernandez
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
@@ -275,9 +275,9 @@ function Testimonials() {
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -286,8 +286,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Roberto Perez
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
@@ -339,9 +339,9 @@ function Testimonials() {
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -350,8 +350,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Alejandro Pineda
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
@@ -423,9 +423,9 @@ function Testimonials() {
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -434,8 +434,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Jeff Bustamante
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
@@ -487,9 +487,9 @@ function Testimonials() {
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
           >
             <figure
-              className="relative w-40 h-40 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
                        before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
-                       group-hover:before:scale-[2.5] motion-safe:before:transition-all 
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
                        motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
             >
               <img
@@ -498,8 +498,8 @@ function Testimonials() {
                 alt="Avatar"
               />
             </figure>
-            <header className="motion-safe:translate-y-4 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
-              <h3 className="font-semibold text-2xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
                 Karen Barillas
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">

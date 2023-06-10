@@ -49,10 +49,17 @@ function HeroHome() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              It's time to start<br />
+              It's time to start
+              <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
                 <Typewriter
-                  words={["creating", "expanding", "escalating", "selling", "growing!"]}
+                  words={[
+                    "creating",
+                    "expanding",
+                    "escalating",
+                    "selling",
+                    "growing!",
+                  ]}
                   loop={5}
                   cursor
                   cursorStyle="_"
@@ -99,12 +106,24 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div
-              className="relative flex justify-center mb-8"
+              className="relative flex justify-center"
               data-aos="zoom-y-out"
               data-aos-delay="450"
             >
-              <div className="flex flex-col justify-center">
-                <img
+              <div className="flex items-center justify-center rounded-full overflow-hidden mb-8 sm:mb-0">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  disablePictureInPicture
+                  preload="auto"
+                  className="w-80"
+                >
+                  <source src="/vid/bg.webm" type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
+                {/* <img
                   className="mx-auto"
                   src={HeroImage}
                   width="768"
@@ -176,9 +195,9 @@ function HeroHome() {
                       <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
                     </g>
                   </g>
-                </svg>
+                </svg> */}
               </div>
-              <button
+              {/* <button
                 className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
                 onClick={(e) => {
                   e.preventDefault();
@@ -196,7 +215,7 @@ function HeroHome() {
                   <path d="M10 17l6-5-6-5z" />
                 </svg>
                 <span className="ml-3">Watch the full video (2 min)</span>
-              </button>
+              </button> */}
             </div>
 
             {/* Modal */}
