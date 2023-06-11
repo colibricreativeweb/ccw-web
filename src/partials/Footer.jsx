@@ -144,7 +144,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Proudly made by <a className="text-blue-600 hover:underline font-bold" href="https://github.com/colibricreativeweb" target="_blank" rel="noreferrer">Our Team</a>.</div>
+          <div className="text-sm text-gray-600 mr-4">Proudly made by <a className="text-blue-600 hover:underline font-bold" href="https://github.com/colibricreativeweb" target="_blank" rel="noopener noreferrer">Our Team</a>.</div>
 
         </div>
 
