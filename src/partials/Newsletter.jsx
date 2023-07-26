@@ -46,7 +46,7 @@ function Newsletter() {
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     {/* <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" /> */}
-                    <a href="mailto:colibricreativeweb@gmail.com?subject=Let's%20Talk" className="btn text-white bg-[#00a6ffff] hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200">Contact Now</a>
+                    <a href="mailto:info@colibricreativeweb.com?subject=Let's%20Talk" className="btn text-white bg-[#00a6ffff] hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200">Contact Now</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
