@@ -131,7 +131,7 @@ function Testimonials() {
       </div>
 
       {/* Team */}
-      <div className="md:grid md:grid-cols-3 lg:grid-cols-3 2xl:flex items-center md:items-start justify-center space-x-0 space-y-2 md:flex-row flex-col mb-20">
+      <div className="md:grid md:grid-cols-3 lg:grid-cols-3 2xl:flex items-center md:items-start justify-center space-x-0 md:flex-row flex-col mb-20">
         <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
@@ -154,7 +154,7 @@ function Testimonials() {
                 Manuel Castro
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
-                <strong>Founder & COO</strong> | Full Stack Dev
+                <strong>COO & Founder</strong> | Full Stack Dev
               </p>
             </header>
 
@@ -217,7 +217,7 @@ function Testimonials() {
                 Manuel Hernandez
               </h3>
               <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
-                <strong>Founder & CIO</strong> | Front-end Dev & DevOps
+                <strong>CIO & Founder</strong> | Front-end Dev & DevOps
               </p>
             </header>
 
