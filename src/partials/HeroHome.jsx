@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
 import { Typewriter } from "react-simple-typewriter";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 import HeroImage from "../images/hero-image.png";
+import { animateScroll } from "react-scroll";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -84,20 +86,35 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
-                    className="btn text-white bg-[#00a6ffff] hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                  <ScrollLink
+                    activeClass="current"
+                    to="start"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
                   >
-                    Start here
-                  </a>
+                    <button
+                      className="btn text-white bg-[#00a6ffff] hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
+                      href="#0"
+                    >
+                      Start here
+                    </button>
+                  </ScrollLink>
                 </div>
                 <div>
-                  <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                    href="#0"
+                  <ScrollLink
+                    activeClass="current"
+                    to="services"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
                   >
-                    Learn more
-                  </a>
+                    <button className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4 cursor-pointer">
+                      Learn more
+                    </button>
+                  </ScrollLink>
                 </div>
               </div>
             </div>
