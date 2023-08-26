@@ -56,7 +56,8 @@ theme: {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        gruppo: ['Gruppo']
       },
       fontSize: {
         xs: '0.75rem',
