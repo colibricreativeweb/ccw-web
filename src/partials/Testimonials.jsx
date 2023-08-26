@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 
-import TestimonialImage from "../images/clients/rick.webp";
+import TestimonialImage1 from "../images/clients/biomelifescan.webp";
+import TestimonialImage2 from "../images/clients/longyushop.webp";
 
 function Testimonials() {
+  const slider = useRef();
   return (
     <section className="relative">
       {/* Illustration behind content */}
@@ -87,43 +89,119 @@ function Testimonials() {
             </div>
           </div>
 
-          {/* Testimonials */}
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-              {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <svg
-                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
-                    viewBox="0 0 64 64"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
+          {/* Testimonials Container */}
+          <div className="sm:0 mx-0 sm:mx-24 drop-shadow-md">
+            <div className="flex flex-col items-center justify-center w-full h-full">
+              <div
+                ref={slider}
+                class="snap-x overflow-hidden scroll-smooth h-full flex items-center justify-start"
+              >
+                <div className="snap-center flex flex-shrink-0 w-full">
+                  {/* Testimonials */}
+                  <div
+                    className="max-w-3xl mx-auto pt-12 md:pt-20"
+                    data-aos="zoom-y-out"
                   >
-                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                  </svg>
-                  <img
-                    className="relative rounded-full"
-                    src={TestimonialImage}
-                    width="96"
-                    height="96"
-                    alt="Testimonial 01"
-                  />
+                    <div className="relative flex items-start rounded bg-white">
+                      {/* Testimonial */}
+                      <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                        <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                          <svg
+                            className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
+                            viewBox="0 0 64 64"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
+                          </svg>
+                          <img
+                            className="relative rounded-full"
+                            src={TestimonialImage1}
+                            width="96"
+                            height="96"
+                            alt="Testimonial 01"
+                          />
+                        </div>
+                        <blockquote className="text-xl font-medium mb-4">
+                          “These guys are awesome, quick and effective, they
+                          were working non-stop to get the things done, I got a
+                          fully-featured website and app at the same time, can't
+                          be more happy.“
+                        </blockquote>
+                        <cite className="block font-bold text-lg not-italic mb-1">
+                          Jaimes Gamez
+                        </cite>
+                        <div className="text-gray-600">
+                          <span>CEO & Founder</span> |{" "}
+                          <a
+                            className="text-blue-600 hover:underline pointer-cursor"
+                            href="https://biomelifescan.com"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            BioMe Lifescan
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “These guys are awesome, quick and effective, they were
-                  working non-stop to get the things done, I got a
-                  fully-featured website and app at the same time, can't be more
-                  happy. “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">
-                  Rick Halls
-                </cite>
-                <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-blue-600 hover:underline" href="#0">
-                    @ExtraNeutron
-                  </a>
+
+                <div className="snap-center flex flex-shrink-0 w-full">
+                  {/* Testimonials */}
+                  <div
+                    className="max-w-3xl mx-auto pt-12 md:pt-20"
+                    data-aos="zoom-y-out"
+                  >
+                    <div className="relative flex items-start rounded bg-white">
+                      {/* Testimonial */}
+                      <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                        <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                          <svg
+                            className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
+                            viewBox="0 0 64 64"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
+                          </svg>
+                          <img
+                            className="relative rounded-full"
+                            src={TestimonialImage2}
+                            width="96"
+                            height="96"
+                            alt="Testimonial 01"
+                          />
+                        </div>
+                        <blockquote className="text-xl font-medium mb-4">
+                          “From 0 to having a company, they did the all the branding and got everything up and running in a snap! We'll definitively keep working together.“
+                        </blockquote>
+                        <cite className="block font-bold text-lg not-italic mb-1">
+                          Mi Ha
+                        </cite>
+                        <div className="text-gray-600">
+                          <span>COO & Founder</span> |{" "}
+                          <a
+                            className="text-blue-600 hover:underline pointer-cursor"
+                            href="https://instagram.com/longyu.shop"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Longyu Shop
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div className="flex flex-row drop-shadow-sm mt-1">
+                <button onClick={() => (slider.current.scrollLeft -= 1000)} className="p-1 bg-white hover:bg-gray-100 rounded-l-xl">
+                  <i className="icon-left-open text-blue-400" />
+                </button>
+                <button onClick={() => (slider.current.scrollLeft += 1000)} className="p-1 bg-white hover:bg-gray-100 rounded-r-xl">
+                  <i className="icon-right-open text-blue-400" />
+                </button>
               </div>
             </div>
           </div>
