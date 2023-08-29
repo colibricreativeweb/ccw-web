@@ -14,18 +14,24 @@ function Footer() {
               {/* Logo */}
               <Link
                 to="/"
-                className="flex flex-row space-x-1"
+                className="flex flex-row"
                 aria-label="Colibri Grayscaled"
               >
-                <img
-                  className="w-8 h-8 filter grayscale"
-                  src={Logo}
-                  alt="SVG logo Grayscaled"
-                />
-                <div className="flex flex-col filter grayscale justify-center text-[10px] font-bold font-gruppo leading-none text-transparent bg-clip-text bg-gradient-to-b from-[#00a6ff] to-[#00ffff]">
-                  <span>Colibri</span>
-                  <span>Creative</span>
-                  <span>Web</span>
+                <div className="flex items-center rounded-r-full bg-gradient-to-l from-white drop-shadow-sm pr-3">
+                  <img
+                    className="w-9 h-9 grayscale"
+                    src={Logo}
+                    alt="SVG logo"
+                  />
+                  <div className="font-bold grayscale pt-1 font-gruppo leading-4 text-transparent bg-clip-text bg-gradient-to-b from-[#00a6ff] to-[#00ffff]">
+                    <div className="flex flex-col items-end">
+                      <h1 className="text-[26.5px]">Colibri</h1>
+                      <div className="flex text-[12px] space-x-1">
+                        <h1>Creative</h1>
+                        <h1>Web</h1>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </Link>
             </div>
@@ -293,12 +299,12 @@ function Footer() {
           <div className="text-sm text-gray-600 mr-4">
             Proudly made by{" "}
             <a
-              className="text-blue-600 hover:underline font-bold"
+              className="text-transparent bg-clip-text bg-gradient-to-b from-[#00a6ff] to-[#00ffff] hover:text-blue-600 hover:underline font-bold"
               href="https://github.com/colibricreativeweb"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Our Team
+              Colibri Creative Web
             </a>
             .
           </div>
