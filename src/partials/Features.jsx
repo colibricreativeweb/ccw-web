@@ -8,7 +8,6 @@ import GDElements from "../images/graphic-design-elements.webp";
 import WDCharacters from "../images/web-development-characters.webp";
 import WDElements from "../images/web-development-elements.webp";
 
-
 function Features() {
   const [tab, setTab] = useState(1);
 
@@ -55,9 +54,16 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">TRUST THE <span className="bg-blue-400 pl-2 pr-2 text-white pb-1">EXPERTS</span></h3>
+                <h3 className="h3 mb-3">
+                  TRUST THE{" "}
+                  <span className="bg-blue-400 pl-2 pr-2 text-white pb-1">
+                    EXPERTS
+                  </span>
+                </h3>
                 <p className="text-xl text-gray-600">
-                  Our network of skilled professionals can provide cutting-edge technology-driven solutions and projects no matter the scale of your business or brand.  
+                  Our network of skilled professionals can provide cutting-edge
+                  technology-driven solutions and projects no matter the scale
+                  of your business or brand.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -79,8 +85,8 @@ function Features() {
                       Digital Marketing
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      We help you reach your target audience, generate leads,
+                      and boost sales from the very beginning of your brand.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -104,12 +110,13 @@ function Features() {
                       Graphic Design & UX/UI Prototyping
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Stand out from the competition with our stunning visuals
+                      and intuitive user interfaces. We create the perfect look
+                      and feel for your website or app.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                  <i className="icon-brush" />
+                    <i className="icon-brush" />
                   </div>
                 </a>
                 <a
@@ -129,12 +136,12 @@ function Features() {
                       Web Development
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Build a fast, attractive and secure website or app with the
+                      latest technology, get ready to conquer all platforms.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0">
-                  <i className="icon-code-1 text-sm mr-[7px]" />
+                    <i className="icon-code-1 text-sm mr-[7px]" />
                   </div>
                 </a>
               </div>

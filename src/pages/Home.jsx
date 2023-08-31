@@ -8,7 +8,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import ButtonUp from '../utils/ButtonUp';
 import Footer from '../partials/Footer';
-/* import Banner from '../partials/Banner'; */
+import Banner from '../partials/Banner';
 import WhatsApp from "../utils/WhatsApp";
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
 
       </main>
 
-      {/* <Banner /> */}
+      <Banner />
 
       {/*  Site footer */}
       <Footer />

@@ -37,14 +37,7 @@ function Footer() {
             </div>
             <div className="text-sm text-gray-600">
               <Link
-                to="#"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
-              >
-                Terms
-              </Link>{" "}
-              ·{" "}
-              <Link
-                to="#"
+                to="/privacy"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
                 Privacy Policy

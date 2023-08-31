@@ -127,7 +127,7 @@ function Testimonials() {
                         <blockquote className="text-xl font-medium mb-4">
                           “These guys are awesome, quick and effective, they
                           were working non-stop to get the things done, I got a
-                          fully-featured website and app at the same time, can't
+                          fully-featured website and store at the same time, can't
                           be more happy.“
                         </blockquote>
                         <cite className="block font-bold text-lg not-italic mb-1">
