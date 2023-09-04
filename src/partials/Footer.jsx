@@ -52,7 +52,7 @@ function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="tel:4247020102"
+                  href="tel:14247020102"
                   className="hover:bg-blue-400 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200 pl-1 pr-2 pt-1 pb-1 rounded-full text-gray-600 hover:text-white"
                 >
                   <i className="icon-phone" />

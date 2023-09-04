@@ -25,7 +25,7 @@ export default class WhatsApp extends React.Component {
             sendBtn.addEventListener("click", () => {
                 let msg = document.getElementById('whats-in').value;
                 let relmsg = msg.replace(/ /g,"%20");
-                window.open('https://wa.me/14697074324?text='+relmsg, '_blank');
+                window.open('https://wa.me/14247020102?text='+relmsg, '_blank');
         
             });
         
