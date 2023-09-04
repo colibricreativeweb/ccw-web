@@ -4,7 +4,6 @@ import { Typewriter } from "react-simple-typewriter";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 import HeroImage from "../images/hero-image.png";
-import { animateScroll } from "react-scroll";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);

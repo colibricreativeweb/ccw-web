@@ -271,7 +271,7 @@ function FeaturesBlocks() {
                 Develop & Launch
               </h4>
               <p className="text-gray-600 text-center">
-                We powerfully code everything up, we boost it and the world is
+                We mighty code everything up, we boost it and the world is
                 going to see.
               </p>
             </div>

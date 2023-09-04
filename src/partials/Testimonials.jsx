@@ -127,8 +127,8 @@ function Testimonials() {
                         <blockquote className="text-xl font-medium mb-4">
                           “These guys are awesome, quick and effective, they
                           were working non-stop to get the things done, I got a
-                          fully-featured website and store at the same time, can't
-                          be more happy.“
+                          fully-featured website and store at the same time,
+                          can't be more happy.“
                         </blockquote>
                         <cite className="block font-bold text-lg not-italic mb-1">
                           Jaimes Gamez
@@ -139,7 +139,7 @@ function Testimonials() {
                             className="text-blue-600 hover:underline pointer-cursor"
                             href="https://biomelifescan.com"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                           >
                             <img
                               className="w-8 relative rounded-full z-20"
@@ -151,7 +151,7 @@ function Testimonials() {
                             className="text-blue-600 hover:underline pointer-cursor"
                             href="https://biomelifescan.com"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                           >
                             BioMe Lifescan
                           </a>
@@ -169,7 +169,7 @@ function Testimonials() {
                   >
                     <div className="relative flex items-start rounded bg-white">
                       {/* Testimonial */}
-                      <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                      <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0" id="testimonials">
                         <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                           <svg
                             className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
@@ -188,7 +188,7 @@ function Testimonials() {
                           </div>
                         </div>
                         <blockquote className="text-xl font-medium mb-4">
-                          “From zero to having a company, they did the all the
+                          “From zero to having a company, they did all the
                           branding and got everything up and running in a snap!
                           We'll definitively keep working together.“
                         </blockquote>
@@ -201,7 +201,7 @@ function Testimonials() {
                             className="text-blue-600 hover:underline pointer-cursor"
                             href="https://instagram.com/longyu.shop"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                           >
                             <img
                               className="w-8 relative rounded-full z-20"
@@ -213,7 +213,7 @@ function Testimonials() {
                             className="text-blue-600 hover:underline pointer-cursor"
                             href="https://instagram.com/longyu.shop"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                           >
                             Longyu Shop
                           </a>
@@ -243,7 +243,10 @@ function Testimonials() {
       </div>
 
       {/* Team */}
-      <div className="md:grid md:grid-cols-3 lg:grid-cols-3 2xl:flex items-center md:items-start justify-center space-x-0 md:flex-row flex-col mb-20">
+      <div
+        className="md:grid md:grid-cols-3 lg:grid-cols-3 2xl:flex items-center md:items-start justify-center space-x-0 md:flex-row flex-col mb-20"
+        id="team"
+      >
         <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
@@ -279,7 +282,7 @@ function Testimonials() {
                   href="https://github.com/kwgeniusz"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -289,7 +292,7 @@ function Testimonials() {
                   href="https://t.me/kwgeniusz"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -299,7 +302,7 @@ function Testimonials() {
                   href="https://www.linkedin.com/in/kwgeniusz"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -342,7 +345,7 @@ function Testimonials() {
                   href="https://serverket.dev"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-link-2 text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -352,7 +355,7 @@ function Testimonials() {
                   href="https://github.com/Serverket"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -362,7 +365,7 @@ function Testimonials() {
                   href="https://t.me/Serverket"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -372,7 +375,7 @@ function Testimonials() {
                   href="https://www.linkedin.com/in/serverket"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -416,7 +419,7 @@ function Testimonials() {
                   href="https://github.com/R3is3rsf/"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -426,7 +429,7 @@ function Testimonials() {
                   href="https://t.me/R3is3rsf"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -436,7 +439,7 @@ function Testimonials() {
                   href="https://www.linkedin.com/in/r3is3rsf/"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -480,7 +483,7 @@ function Testimonials() {
                   href="https://janopineda.dev"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-link-2 text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -490,7 +493,7 @@ function Testimonials() {
                   href="https://github.com/janopineda"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -500,7 +503,7 @@ function Testimonials() {
                   href="https://t.me/janopineda"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -510,7 +513,7 @@ function Testimonials() {
                   href="https://www.facebook.com/codephoenix777"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-facebook text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -520,7 +523,7 @@ function Testimonials() {
                   href="https://www.linkedin.com/in/alejandro-pineda-76074b17"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -564,7 +567,7 @@ function Testimonials() {
                   href="https://github.com/J3f3er"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-github-circled text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -574,7 +577,7 @@ function Testimonials() {
                   href="https://t.me/J3f3er"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-telegram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -584,7 +587,7 @@ function Testimonials() {
                   href="https://linkedin.com/in/jefferson-bustamante-hurtado-844218169"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -628,7 +631,7 @@ function Testimonials() {
                   href="https://www.instagram.com/kbbmdesign"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-instagram text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -638,7 +641,7 @@ function Testimonials() {
                   href="https://www.behance.net/karenbarillas2"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-behance text-md hover:underline hover:underline-offset-4" />
                 </a>
@@ -648,7 +651,7 @@ function Testimonials() {
                   href="https://www.linkedin.com/mwlite/in/karen-barillas-466272162"
                   className="pointer-cursor"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
                 </a>
