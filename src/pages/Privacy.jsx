@@ -59,11 +59,11 @@ function Privacy() {
                   that's why:
                   <br />
                   <ol>
-                    <li>● We do not hold log files</li>
-                    <li>● We do not use any cookies</li>
-                    <li>● We do not track user behavior</li>
-                    <li>● We do not sell any user information</li>
-                    <li>● We do not permanently save any user information</li>
+                    <li>● We do not hold log files.</li>
+                    <li>● We do not use any cookies.</li>
+                    <li>● We do not track user behavior.</li>
+                    <li>● We do not sell any user information.</li>
+                    <li>● We do not permanently save any user information.</li>
                   </ol>
                 </p>
                 <h2 className="font-bold mt-6">Log Files</h2>
