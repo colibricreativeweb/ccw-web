@@ -136,8 +136,8 @@ function Features() {
                       Web Development
                     </div>
                     <div className="text-gray-600">
-                      Build a fast, attractive and secure website or app with the
-                      latest technology, get ready to conquer all platforms.
+                      Build a fast, attractive and secure website or app with
+                      the latest technology, get ready to conquer all platforms.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0">

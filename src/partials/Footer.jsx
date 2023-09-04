@@ -65,7 +65,7 @@ function Footer() {
               <li>
                 <svg className="w-32" viewBox="0 0 400 171.4">
                   <mask id="mapMask">
-                    <g class="dots" fill="#fff">
+                    <g className="dots" fill="#fff">
                       <circle cx="138" cy="0" r=".5" />
                       <circle cx="141" cy="0" r=".5" />
                       <circle cx="144" cy="0" r=".5" />
@@ -2526,9 +2526,9 @@ function Footer() {
                     <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
                   </filter>
                   <radialGradient id="grad">
-                    <stop offset="0%" stop-color="#fff" />
-                    <stop offset="30%" stop-color="rgba(0,255,255,0.7)" />
-                    <stop offset="100%" stop-color="rgba(0,255,255,0)" />
+                    <stop offset="0%" stopColor="#fff" />
+                    <stop offset="30%" stopColor="rgba(0,255,255,0.7)" />
+                    <stop offset="100%" stopColor="rgba(0,255,255,0)" />
                   </radialGradient>
                   <g mask="url(#mapMask)" filter="url(#blur)">
                     <rect height="100%" width="100%" fill="rgba(0,0,0,0.7)" />"
@@ -3485,7 +3485,7 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">
-              Get the latest news and offers to your inbox every month.
+              Get the latest updates from our projects to your inbox.
             </p>
             <form
               target="_blank"
@@ -3498,13 +3498,13 @@ function Footer() {
                     <input
                       type="email"
                       name="email"
-                      maxlength="40"
-                      autocomplete="on"
-                      inputmode="email"
+                      maxLength="40"
+                      autoComplete="on"
+                      inputMode="email"
                       placeholder="Your email"
-                      autocapitalize="off"
-                      spellcheck="false"
-                      autocorrect="off"
+                      autoCapitalize="off"
+                      spellCheck="false"
+                      autoCorrect="off"
                       className="rounded-full border-gray-200 w-full text-gray-800 px-3 py-2 pr-12 text-sm"
                       pattern="(?![_.-])((?![_.-][_.-])[a-zA-Z\d_.-]){0,63}[a-zA-Z\d]@((?!-)((?!--)[a-zA-Z\d-]){0,63}[a-zA-Z\d]\.){1,2}([a-zA-Z]{2,14}\.)?[a-zA-Z]{2,14}"
                       required
@@ -3529,7 +3529,7 @@ function Footer() {
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           {/* Social links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-            <li>
+            {/* <li>
               <Link
                 to="#"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
@@ -3543,8 +3543,8 @@ function Footer() {
                   <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
                 </svg>
               </Link>
-            </li>
-            <li className="ml-4">
+            </li> */}
+            <li className="ml-0 md:ml-4 md:mr-8 lg:mr-0">
               <a
                 href="https://github.com/colibricreativeweb"
                 target="_blank"
@@ -3561,7 +3561,7 @@ function Footer() {
                 </svg>
               </a>
             </li>
-            <li className="ml-4">
+            {/* <li className="ml-4">
               <Link
                 to="#"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
@@ -3575,12 +3575,12 @@ function Footer() {
                   <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
                 </svg>
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Proudly made by{" "}
+            {`© ${new Date().getFullYear()}`} ·{" "}
             <a
               className="text-transparent bg-clip-text bg-gradient-to-b from-[#00a6ff] to-[#00ffff] hover:text-blue-600 hover:underline font-bold"
               href="https://github.com/colibricreativeweb"
@@ -3589,7 +3589,16 @@ function Footer() {
             >
               Colibri Creative Web
             </a>
-            .
+            <a
+              target="_blank"
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+            >
+              <img
+                alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png"
+              />
+            </a>
           </div>
         </div>
       </div>

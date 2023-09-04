@@ -235,7 +235,7 @@ function HeroHome() {
             </div>
 
             {/* Modal */}
-            <Modal
+            {/* <Modal
               id="modal"
               ariaLabel="modal-headline"
               show={videoModalOpen}
@@ -249,7 +249,7 @@ function HeroHome() {
                   allowFullScreen
                 ></iframe>
               </div>
-            </Modal>
+            </Modal> */}
           </div>
         </div>
       </div>
