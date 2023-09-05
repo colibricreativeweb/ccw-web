@@ -56,7 +56,7 @@ function Testimonials() {
               trusted by companies all over the world
             </h2>
             <p className="text-xl text-gray-600 -mb-8" data-aos="zoom-y-out">
-              We're a great organization because our team members are great, we
+              We're a great organization because our team members are that good, we
               combine a select group of people with skilled and talented
               crafting showcased on their public profiles on
             </p>

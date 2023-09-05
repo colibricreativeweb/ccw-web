@@ -76,8 +76,8 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                We convey your ideas into reality. We're quick on ideas and
-                details, just tell us what you're thinking. Wanna see it happen?
+                We convey your ideas into reality. We're quick on getting things
+                done, just tell us what you're thinking. Wanna see it happen?
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
