@@ -51,8 +51,9 @@ function Testimonials() {
             <h2 className="h2 mb-4">
               We're{" "}
               <span className="underline underline-offset-4 decoration-blue-400">
-                Verified Professionals
-              </span>{" "}
+                Verified 
+              </span>
+              <span className="md:underline md:underline-offset-4 md:decoration-blue-400"> Professionals</span>{" "}
               trusted by companies all over the world
             </h2>
             <p className="text-xl text-gray-600 -mb-8" data-aos="zoom-y-out">
