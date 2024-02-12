@@ -3531,6 +3531,7 @@ function Footer() {
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0 lg:mr-0 mr-8 space-x-2">
             <li>
               <a
+                title="Instagram"
                 href="https://www.instagram.com/colibricreative.web/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -3542,6 +3543,7 @@ function Footer() {
             </li>
             <li>
               <a
+                title="Facebook"
                 href="https://facebook.com/colibricreativeweb"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -3553,6 +3555,7 @@ function Footer() {
             </li>
             <li>
               <a
+                title="GitHub"
                 href="https://github.com/colibricreativeweb"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -3560,6 +3563,16 @@ function Footer() {
                 aria-label="GitHub"
               >
                 <i className="text-md icon-github-circled-alt2" />
+              </a>
+            </li>
+            <li>
+              <a
+                title="Email"
+                href="mailto:info@colibricreativeweb.com?subject=Let's%20Talk"
+                className="flex justify-center items-center p-1 text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                aria-label="Email"
+              >
+                <i className="text-md icon-mail-circled" />
               </a>
             </li>
           </ul>

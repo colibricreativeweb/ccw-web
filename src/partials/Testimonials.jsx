@@ -321,6 +321,7 @@ function Testimonials() {
             </ul>
           </div>
         </div>
+
         <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
@@ -384,6 +385,50 @@ function Testimonials() {
               <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
                 <a
                   href="https://www.linkedin.com/in/serverket"
+                  className="pointer-cursor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-linkedin text-md hover:underline hover:underline-offset-4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div x-data="lw" className="flex justify-center items-start">
+          <div
+            className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
+                    hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
+          >
+            <figure
+              className="relative w-40 h-40 md:w-36 md:h-36 m-0 mx-auto rounded-full outline outline-offset-4 outline-[#00a6ffff] 
+                       before:content-[''] before:absolute before:block before:pointer-events-none before:rounded-full before:h-full before:w-full before:bg-[#00a6ffff] before:-z-[1]
+                       group-hover:before:scale-[2.7] motion-safe:before:transition-all 
+                       motion-safe:transform-gpu motion-safe:before:duration-500 before:origin-center group-hover:outline-sky-400"
+            >
+              <img
+                className="rounded-full block max-w-full bg-[#00a6ffff] object-cover z-10 relative"
+                src="/team/gabriel.webp"
+                alt="Avatar"
+              />
+            </figure>
+            <header className="motion-safe:translate-y-2 group-hover:translate-y-0 motion-safe:transition-transform motion-safe:transform-gpu motion-safe:duration-500">
+              <h3 className="font-semibold text-xl text-center text-[#00a6ffff] mt-6 group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                Gabriel Carrillo
+              </h3>
+              <p className="text-center group-hover:text-gray-50 dark:group-hover:text-gray-800 relative">
+                <strong>Business Development</strong> | Senior Back-end Dev
+              </p>
+            </header>
+
+            <ul
+              className="flex justify-center space-x-4 mt-16 text-[#00a6ffff]
+                   relative"
+            >
+              <li className="motion-safe:translate-y-[100px] group-hover:translate-y-0 motion-safe:delay-300 motion-safe:transition">
+                <a
+                  href="https://www.linkedin.com/in/gacarrillo/"
                   className="pointer-cursor"
                   target="_blank"
                   rel="noopener noreferrer"
