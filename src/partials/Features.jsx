@@ -141,7 +141,7 @@ function Features() {
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0">
-                    <i className="icon-code-1 text-sm mr-[7px]" />
+                    <i className="icon-code-2 text-md" />
                   </div>
                 </a>
               </div>

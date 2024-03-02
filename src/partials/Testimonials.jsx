@@ -578,7 +578,7 @@ function Testimonials() {
           </div>
         </div>
 
-        <div x-data="lw" className="flex justify-center items-start">
+        {/* <div x-data="lw" className="flex justify-center items-start">
           <div
             className="w-full max-w-[300px] p-8 rounded-xl text-gray-800 dark:text-gray-400 overflow-hidden group 
                     hover:shadow-2xl hover:shadow-[#00a6ffff]/50 motion-safe:transition-all motion-safe:duration-700"
@@ -630,7 +630,7 @@ function Testimonials() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         <div x-data="lw" className="flex justify-center items-start">
           <div

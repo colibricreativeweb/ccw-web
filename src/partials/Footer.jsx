@@ -50,17 +50,31 @@ function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Contact</h6>
             <ul className="text-sm">
-              <li className="mb-2">
+              <div className="mb-2 flex flex-col">
+                <span className="text-gray-400 text-sm">United States</span>
                 <a
                   href="tel:14244292870"
-                  className="hover:bg-blue-400 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200 pl-1 pr-2 pt-1 pb-1 rounded-full text-gray-600 hover:text-white"
+                  className="hover:bg-blue-400 w-36 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200 pl-1 pr-2 pt-1 pb-1 rounded-full text-gray-600 hover:text-white"
                 >
                   <i className="icon-phone" />
                   (424) 429-2870
                 </a>
-              </li>
+              </div>
               <li className="mb-2 text-gray-600">
                 10770 Palms Blvd, Los Angeles, CA 90034.
+              </li>
+              <div className="mb-2 flex flex-col">
+                <span className="text-gray-400 text-sm">Canada</span>
+                <a
+                  href="tel:13655647575"
+                  className="hover:bg-blue-400 w-36 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200 pl-1 pr-2 pt-1 pb-1 rounded-full text-gray-600 hover:text-white"
+                >
+                  <i className="icon-phone" />
+                  (365) 564-7575
+                </a>
+              </div>
+              <li className="mb-2 text-gray-600">
+                404 Belsize Dr, Toronto, ON M4S 1N5.
               </li>
               <li>
                 <svg className="w-32" viewBox="0 0 400 171.4">
