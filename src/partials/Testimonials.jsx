@@ -45,7 +45,8 @@ function Testimonials() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div>
+        {/* Previous upper code <div className="py-12"> */}
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">
@@ -251,7 +252,7 @@ function Testimonials() {
 
       {/* Section header */}
       <div className="max-w-3xl mx-auto text-center pb-8 md:pb-14">
-        <h2 className="h2 mb-4">Meet The Team</h2>
+        <h2 className="h2 mb-4 pt-8 md:pt-12">Meet The Team</h2>
       </div>
       {/* Team */}
       <div

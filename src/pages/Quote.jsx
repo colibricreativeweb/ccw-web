@@ -38,11 +38,11 @@ function Quote() {
                   className="h-[500px] w-full rounded-xl"
                   id="JotFormIFrame-213442720160039"
                   title="Colibri Creative Web"
-                  onload="window.parent.scrollTo(0,0)"
+                  onLoad="window.parent.scrollTo(0,0)"
                   allowtransparency="true"
-                  allowfullscreen="true"
+                  allowFullScreen="true"
                   src="https://form.jotform.com/213442720160039"
-                  frameborder="0"
+                  frameBorder="0"
                   scrolling="no"
                 ></iframe>
                 <span className="absolute w-full mt-[450px] h-14 bg-white rounded-b-xl"></span>

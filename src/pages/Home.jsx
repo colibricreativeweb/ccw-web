@@ -6,6 +6,7 @@ import FeaturesHome from '../partials/Features';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
+import Showcase from "../partials/Showcase";
 import ButtonUp from '../utils/ButtonUp';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
@@ -28,6 +29,7 @@ export default function Home() {
         <HeroHome />
         <FeaturesHome />
         <FeaturesBlocks />
+        <Showcase />
         <Testimonials />
         <Newsletter />
         <ButtonUp />
