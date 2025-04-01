@@ -24,7 +24,7 @@ export default class WhatsApp extends React.Component {
       sendBtn.addEventListener("click", () => {
         let msg = document.getElementById("whats-in").value;
         let relmsg = msg.replace(/ /g, "%20");
-        window.open("https://wa.me/14244292870?text=" + relmsg, "_blank");
+        window.open("https://wa.me/0000000?text=" + relmsg, "_blank");
       });
 
       // setTimeout(() => {
@@ -60,7 +60,7 @@ export default class WhatsApp extends React.Component {
               id="send-btn"
               type="button"
             >
-              <i className="not-italic">⮞</i>
+              <i className="not-italic">▶</i>
             </button>
           </div>
         </div>

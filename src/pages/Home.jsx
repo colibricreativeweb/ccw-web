@@ -10,7 +10,7 @@ import Showcase from "../partials/Showcase";
 import ButtonUp from '../utils/ButtonUp';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
-import WhatsApp from "../utils/WhatsApp";
+/* import WhatsApp from "../utils/WhatsApp"; */
 
 export default function Home() {
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function Home() {
         <Testimonials />
         <Newsletter />
         <ButtonUp />
-        <WhatsApp />
+        {/* <WhatsApp /> */}
 
       </main>
 

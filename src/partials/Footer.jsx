@@ -53,11 +53,11 @@ function Footer() {
               <div className="mb-2 flex flex-col">
                 <span className="text-gray-400 text-sm">United States</span>
                 <a
-                  href="tel:14244292870"
+                  href="tel:13107083771"
                   className="hover:bg-blue-400 w-36 hover:shadow-lg hover:shadow-blue-500/50 shadow transition-all duration-200 pl-1 pr-2 pt-1 pb-1 rounded-full text-gray-600 hover:text-white"
                 >
                   <i className="icon-phone" />
-                  (424) 429-2870
+                  (310) 708-3771
                 </a>
               </div>
               <li className="mb-2 text-gray-600">
